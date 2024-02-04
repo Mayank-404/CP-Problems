@@ -1,2 +1,2 @@
 # CP-Problems
-My Solutions for Coding Problems 
+Solutions for Coding Problems 
