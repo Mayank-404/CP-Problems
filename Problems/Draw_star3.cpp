@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 
-using namespace std; 
+using namespace std;
 
 void stars_vii(int n) {
     for (int i = 0; i <n/2+1; i++) {
