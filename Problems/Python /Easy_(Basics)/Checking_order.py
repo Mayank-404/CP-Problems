@@ -1,4 +1,5 @@
 def non_decreasing(L):
+    #condition
     if len(L)==1:
         return True
     else:
