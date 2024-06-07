@@ -1,8 +1,6 @@
 def count(L,word):
     if len(L)==0:
         return 0
-       
-   
     elif L[0]==word:
         return 1+count(L[1:],word)
     else:
