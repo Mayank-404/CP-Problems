@@ -17,8 +17,8 @@ while c!='':
         p.update({d:p[d]+1})
     # Add the word to the dictionary with a count of 1 if it's not already there    
     else:
+     # Add the word to the dictionary with a count of 1 if it's not already there 
         p.update({d:1})
-        
     c=f.read(1)
 print(p)
 f.close()# Close the file
