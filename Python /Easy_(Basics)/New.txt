@@ -1,1 +1,5 @@
-Here
+
+You are required to write a function that prints a given number. The function should take a single parameter, which is the number to be printed, and display it on the console.
+    def print_number(number):
+    print (number)
+    
