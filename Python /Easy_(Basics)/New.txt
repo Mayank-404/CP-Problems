@@ -7,3 +7,9 @@ You are required to write a function that prints a given number. The function sh
 Return the square root of a number.
         def square_root(number):
             return number ** 0.5
+
+Round a number to the nearest whole number.
+        # Return Type = float
+        # Type of "number" = float
+        def round_number(number):
+            return round(number)
