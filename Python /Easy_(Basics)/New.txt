@@ -13,3 +13,16 @@ Round a number to the nearest whole number.
         # Type of "number" = float
         def round_number(number):
             return round(number)
+
+Given an integer, your goal is to determine if the number is positive, negative, or zero. Return "Positive" if it's greater than 0, return "Negative" if it's less than 0, or return "Zero" if the number is 0.
+                string find_sign(int number) {
+                    if (number > 0){
+                        return "Positive";
+                    }
+                    else {
+                        if (number==0)
+                            return "Zero";
+                        else
+                            return "Negative";
+                    }
+                }
