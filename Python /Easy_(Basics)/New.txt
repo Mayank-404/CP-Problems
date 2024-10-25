@@ -26,3 +26,18 @@ Given an integer, your goal is to determine if the number is positive, negative,
                             return "Negative";
                     }
                 }
+Given a time in 12-hour format (e.g., "05:30 PM"), convert it to 24-hour format ("17:30").
+        def time_conversion(time_str):
+              parts = time_str[:-2].split(':')
+              hour = int(parts[0])
+              minute = int(parts[1])
+              meridian = time_str[-2:]
+            
+              if meridian == "PM":
+                  if hour != 12:
+                      hour = hour + 12
+              else:
+                  if hour == 12:
+                      hour = 0
+            
+              return str(hour).zfill(2) + ":" + str(minute).zfill(2)
